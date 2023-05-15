@@ -1,0 +1,75 @@
+@import url(../../variables.css);
+
+
+.menu {
+    align-items: center;
+    padding: .5rem 1rem;
+}
+
+.menu-list {
+    width: 100%;
+}
+
+.arrow-down {
+    display: none;
+}
+
+.menu-item.active .arrow-up {
+    display: none;
+}
+
+.menu-item.active .arrow-down {
+    display: block;
+}
+
+
+.menu-link,
+.drop-down-link {
+    color: var(--gray-color) !important;
+    transition: all 400ms ease;
+}
+
+.menu-link {
+    padding: .5rem 1rem;
+    margin-bottom: .5rem;
+    border-radius: .2rem;
+    gap: .8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-link:hover,
+.drop-down-item:hover,
+.menu-item.active a {
+    color: var(--bg-color-light) !important;
+    background-color: var(--gray-color-light);
+}
+
+.menu-link svg {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.drop-down-item {
+    margin-bottom: .2rem;
+    border-radius: .2rem;
+    transition: opacity 1s ease-out;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+.menu-item.active .drop-down-item {
+    padding: .3rem 1rem;
+    opacity: 1;
+    height: auto;
+}
+
+.drop-down-link {
+    transition: all 400ms;
+}
+
+.drop-down-item:hover .drop-down-link {
+    color: var(--bg-color-light) !important;
+}

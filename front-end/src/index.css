@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("./variables.css");
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  font-family: var(--primary-font) !important;
+  line-height: 1.8rem !important;
+  background-color: var(--bg-color) !important;
+  color: var(--white-color) !important;
+  direction: rtl;
+}
+
+a {
+  text-decoration: none !important;
+  color: var(--secondary-color) !important;
+  cursor: pointer;
+  transition: all 400ms ease;
+}
+
+a:hover {
+  color: var(--primary-color) !important;
+}
+
+ul {
+  margin: 0 !important;
+  list-style-type: none;
+}
+
+.Toastify div {
+  font-family: var(--primary-font) !important;
+  font-size: .9rem !important;
+}
+
+@font-face {
+  font-family: dana;
+  src: url(./assets/fonts/dana/dana-regular.eot);
+  src: url(./assets/fonts/dana/dana-regular.woff);
+  src: url(./assets/fonts/dana/dana-regular.woff2);
+}
+
+.MuiInputBase-input,
+.MuiTypography-root {
+  font-family: var(--primary-font) !important;
+}
+
+.ck {
+  color: var(--dark-color);
+}

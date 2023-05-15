@@ -1,0 +1,117 @@
+:root {
+    --primary-color: #2ED573;
+    --primary-color-dark: #25b05f;
+    --primary-color-light: #38ff8b;
+    --secondary-color: #2196f3;
+    --secondary-color-light: #63b9ff;
+    --secondary-color-dark: #446084;
+    --dark-color: #333;
+    --muted-text: #7f8187;
+    --white-light-color: #f1f1f1;
+    --white-color: #fff;
+    --gray-color: #abb8c3;
+    --gray-color-light: #c6cbd5;
+    --yellow-color: #cdb187;
+    --yellow-color-dark: #ecac2c;
+    --red-color: #e91e63;
+    --bg-color: #242532;
+    --bg-color-light: #3b3c52;
+
+    --primary-font: "dana";
+}
+
+
+
+.text-primary {
+    color: var(--primary-color);
+}
+
+.text-primary-dark {
+    color: var(--primary-color-dark);
+}
+
+.text-secondary {
+    color: var(--secondary-color);
+}
+
+.text-secondary-dark {
+    color: var(--secondary-color-dark);
+}
+
+.text-gray {
+    color: var(--gray-color);
+}
+
+.text-red {
+    color: var(--red-color);
+}
+
+.bg-primary {
+    background-color: var(--primary-color);
+}
+
+.bg-primary-dark {
+    background-color: var(--primary-color-dark);
+}
+
+.bg-secondary {
+    background-color: var(--secondary-color);
+}
+
+.bg-secondary-dark {
+    background-color: var(--secondary-color-dark);
+}
+
+.bg-light {
+    background-color: var(--bg-color-light);
+}
+
+.bg-red-primary {
+    background-color: var(--red-color);
+}
+
+.bg-yellow-primary {
+    background-color: var(--yellow-color-dark);
+}
+
+.bg-hover {
+    transition: all 400ms ease;
+}
+
+.bg-hover:hover {
+    background-color: var(--secondary-color);
+}
+
+.bg-active {
+    background-color: var(--secondary-color);
+}
+
+.border-primary {
+    border: 2px solid var(--bg-color-light);
+}
+
+.border-primary-top {
+    border-top: 2px solid var(--bg-color-light);
+}
+
+.border-primary-bottom {
+    border-bottom: 2px solid var(--bg-color-light);
+}
+
+.btn-primary {
+    background-color: var(--primary-color-dark) !important;
+    padding: .3rem 1rem;
+    border-radius: .2rem;
+    display: flex;
+    gap: .4rem;
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-color) !important;
+}
+
+.font-primary {
+    font-family: var(--primary-font) !important;
+}

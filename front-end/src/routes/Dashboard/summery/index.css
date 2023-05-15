@@ -1,0 +1,29 @@
+@import url(../../../variables.css);
+
+.dashboard-info-box {
+    background: url(../../../assets//images/other/dashboard.jpg) no-repeat center;
+    background-size: cover;
+    border-radius: 12px;
+    padding: 1rem 2rem;
+}
+
+.dashboard-info-box_icon svg {
+    width: 3rem;
+    height: 3rem;
+    color: var(--primary-color);
+}
+
+.dashboard-info-box_title {
+    font-size: 1.4rem;
+}
+
+.dashboard-info-box_count {
+    font-size: 2rem;
+    color: var(--primary-color);
+}
+
+.dashboard-info-box_subtitle {
+    color: var(--gray-color);
+    margin-top: 1rem;
+    text-align: center;
+}

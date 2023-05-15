@@ -1,0 +1,11 @@
+.header::before {
+    content: "";
+    background: url(../../assets//images/other/header.jpg) no-repeat top;
+    background-size: cover;
+    position: absolute;
+    width: 100vw;
+    height: 10rem;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}

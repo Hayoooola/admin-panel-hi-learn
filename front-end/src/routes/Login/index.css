@@ -1,0 +1,112 @@
+@import url(../../variables.css);
+
+
+.auth-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.auth-container::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: url(../../assets/images/other/login.jpg) no-repeat fixed;
+    background-size: cover;
+    z-index: -1;
+}
+
+.auth__wrapper {
+    background-color: var(--white-light-color);
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: .5rem;
+}
+
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root,
+.MuiFormLabel-root {
+    font-family: var(--primary-font) !important;
+}
+
+.auth__wrapper p,
+.auth__wrapper div,
+.auth__wrapper span {
+    color: var(--bg-color-light);
+}
+
+.auth__title {
+    font-size: 1.4rem;
+    text-align: center;
+    color: var(--secondary-color) !important;
+}
+
+.auth__subtitle {
+    text-align: center;
+}
+
+.auth-submit-btn {
+    background-color: var(--primary-color-dark);
+    border: none;
+    border-radius: .3rem;
+    padding: .3rem 2rem;
+    transition: all 400ms ease;
+}
+
+.auth-submit-btn:hover {
+    background-color: var(--primary-color);
+}
+
+.auth-submit-btn div,
+.auth-submit-btn svg {
+    color: var(--white-color) !important;
+}
+
+.auth-submit-btn-__icon {
+    position: absolute;
+    top: 0;
+    right: 1rem;
+    margin-top: .8rem;
+}
+
+.auth-redirect-btn {
+    background-color: var(--secondary-color);
+    color: var(--white-color) !important;
+    padding: .3rem .8rem;
+    border-radius: .3rem;
+    margin: 0 .5rem;
+    transition: all 400ms ease;
+}
+
+.auth-redirect-btn:hover {
+    background-color: var(--secondary-color-light);
+}
+
+.remember-me-wrapper label {
+    color: var(--muted-text);
+    font-size: .8rem;
+}
+
+.auth-warning {
+    display: flex;
+}
+
+.auth-warning__text {
+    color: var(--bg-color-light) !important;
+    font-size: .8rem;
+    padding-right: .3rem;
+}
+
+.auth-warning__icon {
+    color: var(--primary-color);
+}
+
+.forget-password {
+    font-size: .9rem;
+    color: var(--muted-text) !important;
+    transition: all 400ms ease;
+}
